@@ -104,7 +104,7 @@ module.exports = class BinarySearchTree {
         return node;
     }
   }
-
+  
   min() {
     let minimalNode = this.minNode(this._root);
     return minimalNode.data;
